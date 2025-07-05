@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:text="ADD PROJECT"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="GROUP NAME"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PROJECT NAME"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Kichwa cha Comment -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCRIPTION"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Sehemu ya kuandika comment -->
+    <EditText
+        android:id="@+id/editTextComment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Write your description here..."
+        android:gravity="top|start"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Button ya ku-submit comment -->
+    <Button
+        android:id="@+id/btnSubmitComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Form"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/design_default_color_primary_variant"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

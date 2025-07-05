@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:text="UPLOAD PROJECT"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+    <!-- Sehemu ya kuandika comment -->
+    <EditText
+        android:id="@+id/editgit"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint=" Enter github link here..."
+        android:gravity="top|start"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/textGithubLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:autoLink="web"
+        android:textColor="@android:color/holo_blue_dark"
+        android:paddingTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Form"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/design_default_color_primary_variant"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
