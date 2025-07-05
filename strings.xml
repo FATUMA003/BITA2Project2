@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project tracker</string>
+    <string-array name="roles_array">
+        <item>STUDENT</item>
+        <item>ADMIN</item>
+    </string-array>
+</resources>
